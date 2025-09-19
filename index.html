@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Náraq語翻訳サイト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Náraq語翻訳サイト</h1>
+
+  <section id="translator">
+    <h2>翻訳</h2>
+    <textarea id="inputText" placeholder="日本語を入力"></textarea>
+    <button id="translateBtn">翻訳</button>
+    <p>結果: <span id="outputText"></span></p>
+  </section>
+
+  <section id="contact">
+    <h2>意見を送る (Discord)</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="名前" required>
+      <textarea name="message" placeholder="意見" required></textarea>
+      <button type="submit">送信</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
