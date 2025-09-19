@@ -1,0 +1,74 @@
+{
+  "person_marker": {
+    "Va": "人名マーカー",
+    "Va Akichika": "あきちか",
+    "Va Koganei": "小金井",
+    "Va tomiu": "トミユ"
+  },
+  "pronouns": {
+    "mi": "私",
+    "su": "あなた",
+    "ra": "彼／彼女",
+    "min": "私たち",
+    "ran": "彼ら"
+  },
+  "verbs": {
+    "akichika": "臭う",
+    "malira": "結婚する",
+    "kemi": "食べる",
+    "lora": "見る",
+    "paku": "行く",
+    "gatu": "来る／与える",
+    "sali": "愛する",
+    "hira": "飛ぶ",
+    "enu": "ある／存在する",
+    "keiry": "創る",
+    "probak": "試す",
+    "reisuk": "旅する",
+    "sivara": "秘密を持つ"
+  },
+  "nouns": {
+    "bura": "ごはん",
+    "ino": "水",
+    "sola": "太陽",
+    "miru": "鳥",
+    "kala": "家",
+    "sora": "友",
+    "ratu": "道",
+    "rki": "恋／愛",
+    "rkinli": "恋人",
+    "nifon": "日本、日本語、日本人",
+    "olu": "〜だけ",
+    "arto": "スマホ／通信機器"
+  },
+  "adjectives": {
+    "tomiu": "かっこいい、美しい",
+    "lumi": "喜ぶ",
+    "grakut": "怒る",
+    "felisa": "幸せ",
+    "uza": "ウザイ",
+    "friska": "怖い",
+    "skibt": "怪しい／わからない",
+    "yosi": "嘘",
+    "na yosi": "真",
+    "yosira": "ごめんなさい／謝る"
+  },
+  "particles": {
+    "-a": "対格（目的語）",
+    "-en": "与格（〜に）",
+    "-s": "所有（〜の）",
+    "-ta": "場所（〜で）",
+    "ta": "接続詞（〜と）",
+    "keit": "疑問（？は不要）",
+    "na": "否定（動詞の直前）"
+  },
+  "examples": [
+    {"narraq": "Mi bura-a kemi-sjs.", "ja": "私がごはんを食べる。"},
+    {"narraq": "Ra ino-a kemi-takak.", "ja": "彼女は水を飲んだ。"},
+    {"narraq": "Koganei akichika-sjs.", "ja": "小金井が臭う。"},
+    {"narraq": "Akichika ta Koganei malira-sjs.", "ja": "あきちかと小金井は結婚している。"},
+    {"narraq": "Va tomiu tomiu-takak, tomiu-sjs, tomiu-izok.", "ja": "トミユは昔かっこよかったし、今もかっこよく、これからもかっこいい。"},
+    {"narraq": "Mi yosi-takak, yosira-sjs.", "ja": "私は嘘をついた、ごめんなさい。"},
+    {"narraq": "Su skibt-sjs.", "ja": "君は怪しい。"}
+  ]
+}
