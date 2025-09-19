@@ -35,23 +35,3 @@ document.getElementById('translateBtn').addEventListener('click', () => {
   const input = document.getElementById('inputText').value;
   document.getElementById('outputText').textContent = translate(input);
 });
-
-// Discord Webhook 送信
-async function sendToDiscord(name, message) {
-  const webhookURL = "YOUR_DISCORD_WEBHOOK_URL"; // ←ここにWebhook URL
-  await fetch(webhookURL, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ content: `名前: ${name}\n意見: ${message}` })
-  });
-}
-
-// お問い合わせフォーム
-document.getElementById('contactForm').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const name = e.target.name.value;
-  const msg = e.target.message.value;
-  await sendToDiscord(name, msg);
-  alert("Discord に送信しました！");
-  e.target.reset();
-});
