@@ -1,7 +1,7 @@
 let dictionary = {};
 
 // 辞書読み込み
-fetch('dictionary.json')
+fetch('Dictionary.json')
   .then(res => res.json())
   .then(data => {
     dictionary = data;
